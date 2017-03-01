@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript Inlämning</title>
+</head>
+
+<body>
+	<p id= "tal"> Skriv ett tal!</p>
+	<input type="button" onClick="changeTal()" value ="Tryck Här!"/>
+	
+	<script type="text/javascript">
+	function changeTal(){
+		var mittTal=prompt("Skriv ett tal", "Tal")
+		if (mittTal < 0 || mittTal >=0)
+			{
+				document.getElementById("tal").innerHTML = mittTal;
+			}
+		else 
+			{
+				alert("fel");
+				changeTal();	
+			}
+
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="Slutprojekt2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>Esports Report</title>
+        <!--[if It IE 9]>
+        <script src=http://html5shim.googlecode.com/svn/trunk/html5.js></script>
+        <![endif]-->
+</head>
+
+<body>
+	<div id="Storbox">
+		<div id="wrapper">
+			<header>
+				<div class="banner">
+					<h2>Keeping Up</h2>
+					<h3>Esports Report</h3>
+					<h4>Everything esports!</h4>
+					<div class="iconbox">
+						<div class="icon-bar">
+							<h1>News</h1>
+							<h1>Tournament</h1>
+							<h1>Games</h1>
+							<div class="circle1"><a href="Slutprojekt1.html"><i class="fa fa-newspaper-o"></i></a></div>
+							<div class="circle2"><a href="Slutprojekt2.html"><i class="fa fa-trophy"></i></a></div>
+							<div class="circle3"><a class="active" href="#"><i class="fa fa-gamepad"></i></a></div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<article>
+			<div class="titel">
+				<h4>Games</h4>
+				<div class="divider"></div>
+			</div>
+			<div id="flip"><h2>Counter Strike: Global Offensive</h2></div>
+			<div id="panel">
+				<p>Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation. It is the fourth game in the Counter-Strike series, and was released for Microsoft Windows, OS X, Xbox 360, and PlayStation 3 in August 2012, with the Linux version being released in September 2014. Cross-platform multiplayer was planned between Windows, OS X, Linux, and PlayStation 3 players, but was ultimately limited the computer versions because of the difference in update-frequency between systems.The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives, the Terrorists, depending on the gamemode, must either plant the bomb or defend the hostages, while the Counter-Terrorists must prevent the bomb from being planted or to rescue the hostages. There are six gamemodes, all of which have distinct characteristics specific to that mode. Global Offensive has matchmaking support that allows players to play on dedicated Valve servers, as well as allowing members of the community to host their own servers with custom maps and gamemodes. Global Offensive has a competitive scene, with Valve-sponsored tournaments known as the "Majors" being the premier competitive event for the game.Global Offensive received positive reviews from critics. The game was praised for its overall gameplay and faithfulness to the previous iterations in the series. Some of the early features were criticized, and while the console versions received positive reviews, reviewers believed there were obvious differences between the console and PC versions of the game.</p>
+			</div>
+			<script> 
+				$(document).ready(function(){
+					$("#flip").click(function(){
+						$("#panel").slideToggle("slow");
+					});
+				});
+			</script>
+			<div id="flip2"><h2>League of Legends</h2></div>
+			<div id="panel2">
+				<p>League of Legends (abbreviated LoL) is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS. The game follows a freemium model and is supported by microtransactions, and was inspired by the Warcraft III: The Frozen Throne mod, Defense of the Ancients. In League of Legends, players assume the role of an unseen "summoner" that controls a "champion" with unique abilities and battle against a team of other players or computer-controlled champions. The goal is usually to destroy the opposing team's "nexus", a structure which lies at the heart of a base protected by defensive structures, although other distinct game modes exist as well. Each League of Legends match is discrete, with all champions starting off fairly weak but increasing in strength by accumulating items and experience over the course of the game. The champions and setting blend a variety of elements, including high fantasy, steampunk, folklore, and Lovecraftian horror. League of Legends was generally well received at release, and has grown in popularity, with an active and expansive fanbase. By July 2012, League of Legends was the most played PC game in North America and Europe in terms of the number of hours played. As of January 2014, over 67 million people played League of Legends per month, 27 million per day, and over 7.5 million concurrently during peak hours. League has among the largest footprints of any game in streaming media communities on platforms such as YouTube and Twitch.tv; it routinely ranks first in the most-watched hours. In September 2016 the company estimated that there are over 100 million active players each month. The game's popularity has led it to expand into merchandise, with toys, accessories, apparel, as well as tie-ins to other media through music videos, web series, documentaries, and books. League of Legends has an active and widespread competitive scene. In North America and Europe, Riot Games organizes the League Championship Series (LCS), located in Los Angeles and Berlin respectively, which consists of 10 professional teams in each continent. Similar regional competitions exist in China (LPL), South Korea (LCK), Taiwan (LMS), Southeast Asia (GPL), and various other regions. These regional competitions culminate with the annual World Championship. The 2016 World Championship had 43 million unique viewers and a total prize pool of over 6 million USD.</p>
+			</div>
+			<script> 
+				$(document).ready(function(){
+					$("#flip2").click(function(){
+						$("#panel2").slideToggle("slow");
+					});
+				});
+			</script>
+			</article>
+			<footer>
+			</footer>
+		</div>
+    </div>
+</body>
+</html>

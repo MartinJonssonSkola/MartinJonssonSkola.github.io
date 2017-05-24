@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="Slutprojekt.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Esports Report</title>
+        <!--[if It IE 9]>
+        <script src=http://html5shim.googlecode.com/svn/trunk/html5.js></script>
+        <![endif]-->
+</head>
+
+<body>
+	<div id="Storbox">
+   		<div id="wrapper">
+    	<header>
+			<div class="banner">
+				<h2>Keeping Up</h2>
+				<h3>Esports Report</h3>
+				<h4>Everything esports!</h4>
+					<div class="iconbox">
+						<div class="icon-bar">
+							<h1>News</h1>
+							<h1>Tournament</h1>
+							<h1>Games</h1>
+							<div class="circle1"><a class="active" href="#"><i class="fa fa-newspaper-o"></i></a></div>
+							<div class="circle2"><a href="Slutprojekt2.html"><i class="fa fa-trophy"></i></a></div>
+							<div class="circle3"><a href="Slutprojekt4.html"><i class="fa fa-gamepad"></i></a></div>
+						</div>
+					</div>
+			</div>
+        </header>
+        <div class="divider3"></div>
+        <article>
+        	<div class="titel">
+            	<h1>News</h1>
+        		<div class="divider"></div>
+            </div>
+            <div class="artikel">
+            	<h2>Astralis Wins ELEAGUE Major 2017</h2>
+            	<p>The grand finals of the ELEAGUE Major at the Fox Theatre in Atlanta concluded with one of the best performances Counter-Strike: Global Offensive has seen in a Major. Astralis took down Virtus.pro in an emotional best-of-three series to be crowned the ELEAGUE Major Atlanta Champions on Sunday.</p>
+            	<p>The first map pick by Virtus.pro in the series was Nuke, whichis a bit of an question mark for most professional CS:GO teams. Nicolai "dev1ce" Reedtz started the pistol round with an aggressive outside push on the defense to catch an off-guard Filip "NEO" Kubski, who was setting up a smoke for an A-bombsite execute. The Danes took the first round, but Virtus.pro forced upgraded pistols to turn the second round in their favor. The Polish Plow then powered through the...</p>
+            	<a href="Slutprojekt5.html"><h3>(Click to read article)</h3></a>
+            </div> 
+            <div class="artikel-bild">
+            	<div class="slideshow-container">
+                      <div class="mySlides fade">
+                        <img src="https://martinjonssonskola.github.io/Slutprojekt/3.jpg" alt="Astralis walking off-stage">
+                      </div>
+                      <div class="mySlides fade">
+                        <img src="https://martinjonssonskola.github.io/Slutprojekt/4.jpg" alt="Astralis lifting the trophy">
+                      </div>
+                      <div class="mySlides fade">
+                        <img src="https://martinjonssonskola.github.io/Slutprojekt/5.jpg" alt="Astralis holding the trophy">
+                      </div>
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+						<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+
+							function plusSlides(n) {
+							  showSlides(slideIndex += n);
+							}
+
+							function currentSlide(n) {
+							  showSlides(slideIndex = n);
+							}
+
+							function showSlides(n) {
+							  var i;
+							  var slides = document.getElementsByClassName("mySlides");
+							  var dots = document.getElementsByClassName("dot");
+							  if (n > slides.length) {slideIndex = 1}    
+							  if (n < 1) {slideIndex = slides.length}
+							  for (i = 0; i < slides.length; i++) {
+								  slides[i].style.display = "none";  
+							  }
+							  for (i = 0; i < dots.length; i++) {
+								  dots[i].className = dots[i].className.replace(" active", "");
+							  }
+							  slides[slideIndex-1].style.display = "block";  
+							  dots[slideIndex-1].className += " active";
+							}
+                        </script>
+            </div>
+			<a href="Slutprojekt4.html"><h3>Counter-Strike: Global Offensive</h3></a>
+        </article>
+        <footer>
+        	<div class="artikel1">
+           		<h1>Team Liquid Secures NALCS Spot For Summer</h1>
+           		<a href="Slutprojekt3.html"><h2>(Click to read article)</h2></a>
+           		<a href="Slutprojekt4.html"><h3>League of Legends</h3></a>
+            	<div class="bild1"><img src="https://martinjonssonskola.github.io/Slutprojekt/Liquid.jpg" alt="Team Liquid logo"></div>
+            </div>
+        	<div class="artikel2">
+           		<h1>The Journey Begins Now!</h1>
+           		<h2>(Click to read article)</h2>
+				<a href="Slutprojekt4.html"><h3>Hearthstone</h3></a>
+            	<div class="bild2"><img src="https://martinjonssonskola.github.io/Slutprojekt/Hearthstone.jpg" alt="Promo art for Hearthstones new expansion"></div>
+            </div>
+        </footer>
+        <div class="divider2"></div>
+        </div>
+    </div>
+</body>
+</html>

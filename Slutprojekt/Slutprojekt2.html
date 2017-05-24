@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="Slutprojekt2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>Esports Report</title>
+        <!--[if It IE 9]>
+        <script src=http://html5shim.googlecode.com/svn/trunk/html5.js></script>
+        <![endif]-->
+</head>
+
+<body>
+	<div id="Storbox">
+   		<div id="wrapper">
+    		<header>
+        		<div class="banner">
+					<h2>Keeping Up</h2>
+					<h3>Esports Report</h3>
+					<h4>Everything esports!</h4>
+						<div class="iconbox">
+							<div class="icon-bar">
+								<h1>News</h1>
+								<h1>Tournament</h1>
+								<h1>Games</h1>
+								<div class="circle1"><a href="Slutprojekt1.html"><i class="fa fa-newspaper-o"></i></a></div>
+								<div class="circle2"><a class="active" href="#"><i class="fa fa-trophy"></i></a></div>
+								<div class="circle3"> <a href="Slutprojekt4.html"><i class="fa fa-gamepad"></i></a></div>
+        					</div>
+        				</div>
+        		</div>
+        	</header>
+			<article>
+				<div class="titel">
+					<h1>Tournaments</h1>
+					<div class="divider"></div>
+				</div>
+				<div id="flip"><h2>Counter Strike: Global Offensive</h2></div>
+				<div id="panel">
+					<img src="https://martinjonssonskola.github.io/Slutprojekt/Starseries.jpg" alt="Starseries logo">
+					<h3>Upcoming matches</h3>
+					<div class="matcher">
+						<img src="https://martinjonssonskola.github.io/Slutprojekt/CSGO Tournament.jpg" alt="Upcoming matches in CS:GO">
+					</div>
+				</div>
+				<script> 
+					$(document).ready(function(){
+						$("#flip").click(function(){
+							$("#panel").slideToggle("slow");
+						});
+					});
+				</script>
+				<div id="flip2"><h2>League of Legends</h2></div>
+				<div id="panel2">
+					<img src="https://martinjonssonskola.github.io/Slutprojekt/LCS.jpg" alt="LCS logo">
+					<h3>Upcoming matches</h3>
+					<div class="matcher2">
+						<img src="https://martinjonssonskola.github.io/Slutprojekt/LoL Tournament.jpg" alt="Upcoming matches in LoL">
+					</div>
+				</div>
+				<script> 
+					$(document).ready(function(){
+						$("#flip2").click(function(){
+							$("#panel2").slideToggle("slow");
+						});
+					});
+				</script>
+			</article>
+        <footer>
+        </footer>
+		</div>
+    </div>
+</body>
+</html>

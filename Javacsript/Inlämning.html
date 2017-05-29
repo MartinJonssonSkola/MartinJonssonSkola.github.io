@@ -14,9 +14,6 @@
 </head>
 
 <body>
-	<p id= "tal"> Skriv ett tal!</p>
-	<input type="button" onClick="changeTal()" value ="Tryck Här!"/>
-	
 	<script type="text/javascript">
 	function changeTal(){
 		var mittTal=prompt("Skriv ett tal", "Tal")
@@ -46,6 +43,9 @@
 	}
 	</style>
 	<div id="flip">Click to slide the panel down or up</div>
-	<div id="panel">Hello world!</div>
+	<div id="panel">
+		<p id= "tal"> Skriv ett tal!</p>
+		<input type="button" onClick="changeTal()" value ="Tryck Här!"/>
+	</div>
 </body>
 </html>

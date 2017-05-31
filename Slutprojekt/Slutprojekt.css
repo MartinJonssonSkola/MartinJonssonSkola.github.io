@@ -382,3 +382,12 @@ a{
 	margin-left: 65%;
 	position: absolute;
 }
+@media screen and (max-width: 480px) {
+	#wrapper{
+	background: #CCC;
+	width: 400px;
+	margin-left: 6%;
+	margin-right: 6%;
+	height: auto;
+	}
+}

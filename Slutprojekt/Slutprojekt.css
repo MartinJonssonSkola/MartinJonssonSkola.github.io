@@ -458,4 +458,20 @@ a{
 	margin-top: 30px;
 	margin-left: 350px;
 	}
+	.banner{
+	margin-top: 0;
+	margin: auto;
+	width: 400px;
+	height: 200px;
+	position: relative;
+	}
+	.iconbox{
+	height:100%;
+	width:100%;
+	float:left;
+	background-color:transparent;
+	}
+	.icon-bar h1{
+	font-size: 0px;
+	}
 }

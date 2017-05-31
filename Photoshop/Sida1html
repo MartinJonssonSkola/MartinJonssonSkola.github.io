@@ -11,7 +11,7 @@
 		</div>
 		<div id="nav">
 			<ul>
-				<li><a href="#">Logga</a></li>
+				<li><a href="Sida1.html">Logga</a></li>
 				<li><a href="Sida2.html">Ansikte</a></li>
 				<li><a href="Sida3.html">Banner</a></li>
 			</ul>	

@@ -390,4 +390,11 @@ a{
 	margin-right: 6%;
 	height: auto;
 	}
+	header{
+	width:400px;
+	height:200px;
+	background-image:url("https://martinjonssonskola.github.io/Slutprojekt/Banner2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	}
 }

@@ -431,4 +431,31 @@ a{
 	.banner h4{
 	font-size:0px;
 	}
+	.circle1{
+	background-color:#f9c234;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	position:absolute;
+	margin-top: 30px;
+	margin-left: 100px;
+	}
+	.circle2{
+	background-color:#f9c234;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	position:absolute;
+	margin-top: 30px;
+	margin-left: 225px;
+	}
+	.circle3{
+	background-color:#f9c234;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	position:absolute;
+	margin-top: 30px;
+	margin-left: 350px;
+	}
 }
